@@ -10,8 +10,7 @@ func main() {
 	//syntax to check key present or not
 	check := "Shaktiman"
 	// ok is Boolean returns true-Present flase-Not Present value Returns Value OF the key
-	value, ok := Emp[check]
-	if ok == true {
+	if value, ok := Emp[check]; ok{
 		fmt.Println("The Salary of Mike", value)
 	}
 	fmt.Println("The Key NOt Found!!")
