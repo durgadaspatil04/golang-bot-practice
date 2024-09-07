@@ -1,3 +1,4 @@
+// In this program will see different output of sum of x every time due to race condition
 package main
 
 import (
