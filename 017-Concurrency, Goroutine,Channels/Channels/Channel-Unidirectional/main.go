@@ -6,6 +6,6 @@ func sendData(ch chan<- int) {
 }
 func main() {
 	ch := make(chan<- int)
-	sendData(ch)
+	go sendData(ch)
 	//fmt.Println(<-ch)
 }
